@@ -4,6 +4,7 @@ body {
 
 h1 {
     font-size: 50px;
+    font-family: 'Oswald', sans-serif;
 }
 
 p {
@@ -19,11 +20,11 @@ p {
     background-image: linear-gradient( orange, tomato);
 }
 
-.half-width {
+.top-banner .half-width {
     width: 45%;
 }
 
-.half-width img {
+.top-banner img {
     width: 80%;
     float: right;
 }
@@ -32,18 +33,18 @@ p {
     display: flex;
 }
 
-.first-slice {
+.top-banner .first-slice {
     padding-top: 120px;
     margin-left: 5%;
 }
 
-.first-slice p {
+.top-banner p {
     padding-right: 50px;
     margin-bottom: 50px;
     color: gray;
 }
 
-.second-slice {
+.top-banner .second-slice {
     padding-top: 50px;
     margin-right: 5%;
 }
@@ -53,4 +54,34 @@ p {
     text-decoration: none;
     color: white;
     border-radius: 20px;
+}
+
+.second-banner {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    background-image: url(./images/7.png);
+    background-repeat: no-repeat;
+    padding: 20px 50px;
+}
+
+.second-banner img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.second-banner .half-width {
+    width: 50%;
+    padding: 20px 50px;
+}
+
+.second-banner p {
+    padding-right: 50px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.second-banner .second-slice p {
+    padding-right: 100px;
 }
