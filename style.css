@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+.text-orange {
+    color: orangered;
+}
+
+.bg-orange {
+    background-image: linear-gradient( orange, tomato);
+}
+
+.half-width {
+    width: 45%;
+}
+
+.half-width img {
+    width: 80%;
+    float: right;
+}
+
+.top-banner {
+    display: flex;
+}
+
+.first-slice {
+    padding-top: 120px;
+    margin-left: 5%;
+}
+
+.first-slice p {
+    padding-right: 50px;
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.second-slice {
+    padding-top: 50px;
+    margin-right: 5%;
+}
+
+.link-btn {
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+}
