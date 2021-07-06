@@ -160,3 +160,26 @@ footer p {
     color: white;
     font-size: 15px;
 }
+
+.contact-container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px gray;
+}
+
+.contact-info,
+.map {
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+
+.find-us {
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
