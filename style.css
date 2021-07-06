@@ -85,3 +85,78 @@ p {
 .second-banner .second-slice p {
     padding-right: 100px;
 }
+
+.recipie-container {
+    width: 100%;
+}
+
+.recipie-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.recipie {
+    width: 20%;
+    justify-content: space-around;
+    box-shadow: 0 0 10px gray;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.recipie img {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.recipie-container .heading {
+    width: 50%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.info-area {
+    margin-top: 100px;
+    /* padding: 20px 50px; */
+}
+
+.info-container {
+    padding: 20px 20px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0 0 20px gray;
+}
+
+.info {
+    width: 20%;
+    text-align: center;
+}
+
+.info h1 {
+    margin-bottom: 0;
+}
+
+.info p {
+    font-size: 15px;
+}
+
+footer {
+    color: gray;
+    margin-top: 100px;
+    padding: 20px 50px;
+    background-color: #142127;
+}
+
+footer p {
+    margin-bottom: 100px;
+    color: white;
+    font-size: 15px;
+}
